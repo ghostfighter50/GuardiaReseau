@@ -4,24 +4,38 @@
 
 1. [Introduction](#1-introduction)
 2. [Installation d'OPNsense](#2-installation-dopnsense)
+
    2.1. [Configuration Matérielle Virtuelle](#2.1-configuration-matérielle-virtuelle)
+
    2.2. [Étapes d'Installation d'OPNsense](#2.2-étapes-dinstallation-dopnsense)
 3. [Configuration Initiale d'OPNsense](#3-configuration-initiale-dopnsense)
+
    3.1. [Accès à l'Interface Web](#3.1-accès-à-linterface-web)
+
    3.2. [Assistant de Configuration Initiale](#3.2-assistant-de-configuration-initiale)
 4. [Configuration des Interfaces Réseau](#4-configuration-des-interfaces-réseau)
+
    4.1. [Interface ADMIN](#4.1-interface-admin)
+
    4.2. [Interface CLIENT](#4.2-interface-client)
+
    4.3. [Configuration du Serveur DHCP sur Windows Server 2019](#4.3-configuration-du-serveur-dhcp-sur-windows-server-2019)
+
    4.4. [Configuration de la Zone CLIENT](#4.4-configuration-de-la-zone-client)
 5. [Installation de Windows Server 2019 sur VirtualBox](#5-installation-de-windows-server-2019-sur-virtualbox)
+
    5.1. [Étape 1 : Télécharger l'ISO de Windows Server 2019](#5.1-étape-1-télécharger-liso-de-windows-server-2019)
+
    5.2. [Étape 2 : Créer une Machine Virtuelle dans VirtualBox](#5.2-étape-2-créer-une-machine-virtuelle-dans-virtualbox)
 6. [Installation des Machines Clientes](#6-installation-des-machines-clientes)
+
    6.1. [Client Windows](#6.1-client-windows)
+   
    6.2. [Client Linux](#6.2-client-linux)
 7. [Configuration d'Active Directory et DNS](#7-configuration-dactive-directory-et-dns)
+   
    7.1. [Installation du Rôle AD DS](#7.1-installation-du-rôle-ad-ds)
+   
    7.2. [Configuration du DNS](#7.2-configuration-du-dns)
 8. [Adhésion des Machines Clientes au Domaine](#8-adhésion-des-machines-clientes-au-domaine)
 9. [Configuration des Règles de Pare-feu](#9-configuration-des-règles-de-pare-feu)
